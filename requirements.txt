@@ -1,0 +1,7 @@
+Paver==1.1.1
+Pygments==1.5
+heroku==0.1.2
+bottle==0.11.4
+requests==0.14.2
+uuid==1.30
+pymongo==2.4.1
