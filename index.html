@@ -11,14 +11,16 @@
 		<script src="http://code.highcharts.com/highcharts.js"></script>
 		<script src="http://code.highcharts.com/modules/exporting.js"></script>
 
-		<script src="graph.js"></script>
 		<script src="calculator.js"></script>
+		<script src="graph.js"></script>
+		<script src="chart.js"></script>
 	</head>
 	<body>
 
 		<div id="graphContainer"></div>
 		<hr />
-		<table class="table table-hover">
+		<h3>Bets</h3>
+		<table class="table table-hover" id="bettorChart">
 			<thead>
 				<tr>
 					<th>Place</th>
@@ -26,11 +28,6 @@
 					<th>Net +/-</th>
 				</tr>
 			</thead>
-			<tr>
-				<td>1</td>
-				<td>Max</td>
-				<td>+2</td>
-			</tr>
 		</table>
 
 	</body>
