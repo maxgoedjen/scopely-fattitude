@@ -1,19 +1,156 @@
 [
   {
+    "name": "Avram",
+    "bets": [
+      "Mike",
+      "Peter",
+      "EJ",
+      "Avram",
+      "Emily",
+      "Ilias",
+      "Kabisch",
+      "Jameel",
+      "Andy",
+      "Justin",
+      "Jaclyn",
+      "Tim",
+      "Dave",
+      "Kayli",
+      "Stepan",
+      "Ankur",
+      "Brooke"
+    ]
+  },
+  {
+    "name": "Ilias",
+    "bets": [
+      "Peter",
+      "Ilias",
+      "Mike",
+      "Justin",
+      "Emily",
+      "Dave",
+      "Kayli",
+      "Jameel",
+      "Kabisch",
+      "EJ",
+      "Avram",
+      "Tim",
+      "Andy",
+      "Jaclyn",
+      "Brooke",
+      "Stepan",
+      "Ankur"
+    ]
+  },
+  {
+    "name": "Kayli",
+    "bets": [
+      "Justin",
+      "Kayli",
+      "Peter",
+      "Mike",
+      "Ilias",
+      "Dave",
+      "Jameel",
+      "Avram",
+      "Andy",
+      "Emily",
+      "Kabisch",
+      "EJ",
+      "Stepan",
+      "Tim",
+      "Brooke",
+      "Jaclyn",
+      "Ankur"
+    ]
+  },
+  {
     "name": "Max",
     "bets": [
-    	"Steve",
-    	"Max",
-    	"Paul"
+      "Mike",
+      "Justin",
+      "Peter",
+      "EJ",
+      "Dave",
+      "Jameel",
+      "Emily",
+      "Kayli",
+      "Avram",
+      "Andy",
+      "Kabisch",
+      "Ilias",
+      "Tim",
+      "Stepan",
+      "Jaclyn",
+      "Brooke",
+      "Ankur"
     ]
-  }, 
+  },
+  {
+    "name": "Mike",
+    "bets": [
+      "Mike",
+      "Peter",
+      "EJ",
+      "Justin",
+      "Jameel",
+      "Emily",
+      "Kayli",
+      "Dave",
+      "Ilias",
+      "Avram",
+      "Andy",
+      "Kabisch",
+      "Tim",
+      "Stepan",
+      "Brooke",
+      "Jaclyn",
+      "Ankur"
+    ]
+  },
   {
     "name": "Nick",
     "bets": [
-    	"Max",
-    	"Steve",
-    	"Paul"
+      "Peter",
+      "Mike",
+      "Justin",
+      "EJ",
+      "Emily",
+      "Jameel",
+      "Kayli",
+      "Dave",
+      "Andy",
+      "Kabisch",
+      "Stepan",
+      "Avram",
+      "Ilias",
+      "Tim",
+      "Brooke",
+      "Jaclyn",
+      "Ankur"
+    ]
+  },
+  {
+    "name": "Peter",
+    "bets": [
+      "Mike",
+      "Dave",
+      "Peter",
+      "Jameel",
+      "Emily",
+      "EJ",
+      "Ilias",
+      "Justin",
+      "Avram",
+      "Andy",
+      "Kabisch",
+      "Stepan",
+      "Tim",
+      "Kayli",
+      "Jaclyn",
+      "Brooke",
+      "Ankur"
     ]
   }
-
 ]
