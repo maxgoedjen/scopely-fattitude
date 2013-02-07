@@ -10,7 +10,7 @@ $(function () {
 					marginBottom: 25
 				},
 				title: {
-					text: 'Fat Percentages Lost',
+					text: 'Fat Percentages Lost (Higher is Better)',
 					x: -20
 				},
 				xAxis: {
@@ -52,7 +52,7 @@ $(function () {
 					marginBottom: 25
 				},
 				title: {
-					text: 'Fat Percentages',
+					text: 'Fat Percentages (Lower is Better)',
 					x: -20
 				},
 				xAxis: {
@@ -72,7 +72,7 @@ $(function () {
 				tooltip: {
 					formatter: function() {
 							return '<b>'+ this.series.name +'</b><br/>'+
-							Math.round(this.y) +'%';
+							this.y +'%';
 					}
 				},
 				legend: {
