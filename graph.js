@@ -1,7 +1,7 @@
 $(function () {
 	$(document).ready(function() {
-		$.getJSON('data_weighins.json', function(jsonData) {
-			var parsed = percentChanges(jsonData);
+		$.getJSON('/data', function(jsonData) {
+			var parsed = percentChanges(jsonData.data);
 			var chartPercents = new Highcharts.Chart({
 				chart: {
 					renderTo: 'graphContainerPercentsLost',
@@ -83,7 +83,7 @@ $(function () {
 					y: 100,
 					borderWidth: 0
 				},
-				series: jsonData
+				series: jsonData.data
 			});
 
 
