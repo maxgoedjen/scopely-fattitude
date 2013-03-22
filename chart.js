@@ -3,7 +3,7 @@ $(function () {
 		$.getJSON('data_bets.json', function(bettors) {
 			$.getJSON('/data', function(weighins) {
 				
-				var rankedWeights = percentChanges(weighins);
+				var rankedWeights = percentChanges(weighins.data);
 				var rBettors = rankedBettors(rankedWeights, bettors);
 				console.log(rBettors);
 				for (var i=0; i<rBettors.length; i++) {

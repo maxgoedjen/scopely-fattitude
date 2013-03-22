@@ -35,7 +35,7 @@ def get_data():
                 cat_row += [cat_row[-1]]
             
             contestant = {
-                'name' : row[0],
+                'name' : row[0].strip(),
                 'data' : cat_row
             }
             parsed_rows += [contestant]
