@@ -4,7 +4,7 @@ import json
 
 import requests
 
-URL = 'https://docs.google.com/spreadsheet/pub?key=0AoZP4sZ1PlPqdDdKNDZsSTJRazFVQzBNbGtqTnRadmc&single=true&gid=0&output=csv'
+URL = 'https://docs.google.com/spreadsheet/pub?key=0ApXtgwqvOwWHdHFzX0lwRFI3QUhZUVBKWFNJTmY3Zmc&single=true&gid=1&output=csv'
 
 datapoint = re.compile('^([0-9.]*)$')
 validrow = re.compile('^([0-9]+)$')
