@@ -30,7 +30,7 @@ $(function () {
 				tooltip: {
 					formatter: function() {
 							return '<b>'+ this.series.name +'</b><br/>'+
-							Math.round(this.y) +'% Change';
+							this.y +'% Change';
 					}
 				},
 				legend: {
